@@ -1,1 +1,71 @@
-/* Add CSS styling here */
+html {
+    
+    height: 100vh;
+    margin: .5%;
+}
+
+header {
+    border: 1px solid black;
+}
+.toolbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    flex-wrap: wrap;
+    width: 360px;
+    height: 40px;
+    margin-left: 40px;
+}
+
+h1 {
+    margin-left: 2%;
+    font-size: 36;
+    text-align: left;
+}
+
+.button {
+    display: flex;
+    height: 40px;
+    width: 24.4%;
+    border: 1px solid black;
+    padding: 8px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    background: red;
+}
+
+.text {
+    font-family:fantasy;
+    font-size: 1.2rem;
+}
+
+.text a {
+    text-decoration: none;
+    color: black;
+    text-shadow: 1px 1px white;
+}
+
+body {
+    
+    border: 1px solid red;
+}
+
+.content {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100vm;
+    height: 100vm;
+}
+
+.mainPic {
+    height: 60px;
+    width: 60px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    
+}
+
